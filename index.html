@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>QUIZ | Dzhanaliev</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;700&family=Pacifico&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	
+	<section class="quiz">
+		<div class="container">
+			<div class="quiz_in">
+				<form action="" class="quiz-form">
+					<div class="pagination">
+						<div class="pagination_scroll-wrap">
+							<div class="pagination_scroll pagination_scroll__active"></div>
+							<div class="pagination_scroll"></div>
+						</div>
+						<div class="pagination_txt-wrap">
+							<span class="pagination_txt">Вопрос </span>
+							<span class="pagination_num">1</span>
+							<span> из </span>
+							<span class="pagination_max">2</span>
+						</div>
+					</div>
+					<div class="questions">
+					 	<div class="question question_active">
+					 		<p class="question_title">Какой тип грунта на вашем участке?</p>
+					 		<p class="question_desc">От типа грунта зависит технология монтажа септика</p>
+					 		<ul class="question_answers">
+					 			<li class="card">
+					 				<label>
+					 					<div class="card-img">
+					 						<img src="img/img-1.jpg" alt="">
+					 					</div>
+					 					<span class="card_name">
+					 						<input type="radio" name="q1" value="Песок">
+					 						<span class="card_check"></span>Песок</span>
+					 				</label>
+					 			</li>
+					 			<li class="card">
+					 				<label>
+					 					<div class="card-img">
+					 						<img src="img/img-2.jpg" alt="">
+					 					</div>
+					 					<span class="card_name">
+					 						<input type="radio" name="q1" value="Суглинок">
+					 						<span class="card_check"></span>Суглинок</span>
+					 				</label>
+					 			</li>
+					 			<li class="card">
+					 				<label>
+					 					<div class="card-img">
+					 						<img src="img/img-3.jpg" alt="">
+					 					</div>
+					 					<span class="card_name">
+					 						<input type="radio" name="q1"  value="Торф">
+					 						<span class="card_check"></span>Торф
+					 					</span>
+					 				</label>
+					 			</li>
+					 			<li class="card">
+					 				<label>
+					 					<div class="card-img">
+					 						<img src="img/img-4.jpg" alt="">
+					 					</div>
+					 					<span class="card_name">
+					 						<input type="radio" name="q1"  value="Глина">
+					 						<span class="card_check"></span>Глина</span>
+					 				</label>
+					 			</li>
+					 			<li class="other">
+					 				<label>
+					 					<div class="other_input">
+					 						<input type="radio" name="q1" class="other-input-radio">
+					 						<span class="card_check"></span>
+					 						<input type="text" placeholder="Введите Ваш вариант ответа..." class="label-input-text">
+					 					</div>
+					 				</label>
+					 			</li>
+					 		</ul>
+					 	</div>
+					 	<div class="question">
+					 		<p class="question_title question_title__big">Расчет стоимости <span class="green">сформирован</span></p>
+					 		<div class="counter"></div>
+					 		<div class="load load-active">
+					 			<div class="load_line"></div>
+					 			<div class="load_body">
+					 				<span class="load-counter">0</span>
+					 				<span>%</span>
+					 			</div>
+					 		</div>
+					 		<div class="success">
+					 			<div class="success_img"></div>
+					 			<p class="success_txt">Он откроется на этой странице сразу после ввода вашего номера телефона</p>
+					 		</div>
+				 			<div class="success_btns">
+					 			<input type="tel" class="success_tel" placeholder="Введите ваш номер телефона">
+					 			<button type="submit" class="btn btn-end" disabled>Получить расчет и мини-курс</button>
+				 			</div>
+				 			
+					 	</div>
+				 </div>
+				</form>
+				<button type="button" class="btn btn-next" disabled>Дальше
+			 		<i class="btn-arrow"></i>
+			 	</button>
+			 	<div class="report">
+			 		<h4 class="report_title">Спасибо за заявку!</h4>
+			 		<p>Тип грунта: <span class="report_1"></span></p>
+			 		<p>Ваш номер: <span class="report_2"></span></p>
+			 		<p>Ваше отчет: <span>Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Пунктуация ведущими, лучше жаренные грамматики своего от всех злых дороге дал ipsum строчка, то? Безопасную океана текстов свой осталось своих, заголовок.</span></p>
+			 		<a href="#" class="btn" onclick="window.location.reload()">Вернуться на главную</a>
+			 	</div>
+				<div class="teather">
+			 		<a href="#" class="teather_txt">Подходящие модели септика и расчет стоимости монтажа</a>
+			 	</div>
+		 	</div>
+		</div>
+	</section>
+
+	<script src="libs/jquery-3.4.1.min.js"></script>
+	<script src="libs/inputmask.min.js"></script>
+	<script src="js/core.js"></script>
+
+</body>
+</html>
